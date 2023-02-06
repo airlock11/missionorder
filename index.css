@@ -4,16 +4,6 @@ body {
   a {
     text-decoration: none;
   }
-  .navBar {
-    display: flex;
-  }
-  .navLink {
-    margin-top: 7px;
-    margin-bottom: 0;
-  }
-  .navList {
-    margin-left: 40px;
-  }
   .nav-items,
   .bottom-slide {
     display: flex;

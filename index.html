@@ -13,31 +13,34 @@
 <body>
 
   <!--Navigation Bar-->
-    <div class="NaviBar">
-      <div class="navBar">
-        <div class="topNav">
+      <nav class="navbar bg-body-tertiary">
+        <div class="d-flex">
+          <!--Off Canvas-->
+          <div class="offCanvas">
             <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="menuIcon.png" width="25"></button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p>Try scrolling the rest of the page to see this option in action.</p>
+                <p>Hello World</p>
+              </div>
+            </div>
+          </div>
+          <!---->
+            <!--Company logo-->
+          <div class="d-inline-flex">
+            <a class="navbar-brand" href="#">
+            <img src="comapany logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+              Pear
+            </a>
+          </div>
+            <!---->
         </div>
-        <div>
-            <ul class="navLink" style="list-style: none; display: flex;">
-                <li class="navList">Home</li>
-                <li class="navList">Shop</li>
-                <li class="navList">Track</li>
-            </ul>
-        </div>
-      </div>
-      <!---->
-      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <p>Try scrolling the rest of the page to see this option in action.</p>
-          <p>Hello World</p>
-        </div>
-      </div>
-    </div >
+      </nav>
+    <!---->
 
   
   <section class="nav-items">
