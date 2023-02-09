@@ -4,12 +4,41 @@ body {
   a {
     text-decoration: none;
   }
-  .nav-items,
+.topPage{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    flex-direction: column;
+    background: #eee;
+    margin-bottom: 50px;
+  }
+
+.cont{
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+  color: #9b9b9b;
+}
+.cont h1 {
+  margin-bottom: 0%;
+}
+
+  .nav-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2em;
+
+  }
   .bottom-slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     height: 110vh;
     position: relative;
     background: #eee;
