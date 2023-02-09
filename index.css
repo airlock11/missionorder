@@ -119,9 +119,12 @@ body {
       letter-spacing: 0ch;
     }
   }
-  @media only screen and (max-width: 820px) {
+  @media only screen and (max-width: 821px) {
     video {
-      width: auto;
+      width: 100%;
+    }
+    .cont{
+      font-size: 1rem;
     }
   }
 
