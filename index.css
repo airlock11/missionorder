@@ -87,7 +87,7 @@ body {
     font-size: 0.8rem;
   }
   .navs:hover {
-    color: rgb(255, 2, 2);
+    color: #9b9b9b;
     background: #adacac;
     transition: all 0.3s ease;
   }
